@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Road segment</title>
+    </head>
+<body>
+    <h1>road segment</h1>
+
+    Transform (3857)
+
+    <ul>
+            {% for r in road %}
+    <li> {{r.segment}} {{r.geom.length}} </li>
+    <br>
+
+
+
+    {% endfor %}
+    </ul>
+
+    <br>
+    
+    
+    
+</body>
+</html>

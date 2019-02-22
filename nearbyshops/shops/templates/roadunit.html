@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Road Unit</title>
+    </head>
+<body>
+    <h1>{{name}} distance with following shops</h1>
+
+    <ul>
+            {% for shop in shops %}
+
+
+            <li> {{shop.0}}: {{shop.1}} </li>
+
+
+
+    {% endfor %}
+    </ul>
+    
+    
+</body>
+</html>

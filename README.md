@@ -22,15 +22,15 @@ Client-side:
 
 cd frontend
 
-# install dependencies
+install dependencies
 ```bash
 npm install
 ```
-# run development server
+run development server
 ```bash
 npm run dev
 ```
-# build for production
+build for production
 ```bash
 npm run build
 ```
